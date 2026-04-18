@@ -39,4 +39,54 @@
     "pergunta": "O que é pull request?",
     "resposta": "Solicitação para revisar e integrar código."
   }
+  {
+    "id": 9,
+    "pergunta": "O que é pipeline?",
+    "resposta": "Fluxo automatizado de build, teste e deploy."
+  },
+  {
+    "id": 10,
+    "pergunta": "O que é build?",
+    "resposta": "Processo de compilar/gerar a aplicação."
+  },
+  {
+    "id": 11,
+    "pergunta": "O que é deploy?",
+    "resposta": "Publicação da aplicação em um ambiente."
+  },
+  {
+    "id": 12,
+    "pergunta": "O que é rollback?",
+    "resposta": "Voltar para uma versão anterior do sistema."
+  }
+   {
+    "id": 13,
+    "pergunta": "Qual a diferença entre Git e GitHub?",
+    "resposta": "Git é a ferramenta de versionamento. GitHub é uma plataforma online que hospeda repositórios Git."
+  },
+   {
+    "id": 14,
+    "pergunta": "O que é um repositório?",
+    "resposta": "É o local onde o projeto e seu histórico de versões ficam armazenados."
+  },
+   {
+    "id": 15,
+    "pergunta": "O que é Docker?",
+    "resposta": "É uma plataforma que permite criar, testar e executar aplicações em containers."
+  },
+    {
+    "id": 16,
+    "pergunta": "O que é um Dockerfile?",
+    "resposta": "É um arquivo com instruções para construir uma imagem Docker."
+  },
+    {
+    "id": 17,
+    "pergunta": "O que são workflows no GitHub Actions?",
+    "resposta": "São automações definidas para executar tarefas como testes e deploy dentro do GitHub."
+  },
+    {
+    "id": 18,
+    "pergunta": "O que é uma imagem Docker?",
+    "resposta": "É um modelo base usado para criar containers."
+  }
 ]
