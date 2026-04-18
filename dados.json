@@ -38,7 +38,7 @@
     "id": 8,
     "pergunta": "O que é pull request?",
     "resposta": "Solicitação para revisar e integrar código."
-  }
+  },
   {
     "id": 9,
     "pergunta": "O que é pipeline?",
@@ -58,8 +58,8 @@
     "id": 12,
     "pergunta": "O que é rollback?",
     "resposta": "Voltar para uma versão anterior do sistema."
-  }
-   {
+  },
+  {
     "id": 13,
     "pergunta": "Qual a diferença entre Git e GitHub?",
     "resposta": "Git é a ferramenta de versionamento. GitHub é uma plataforma online que hospeda repositórios Git."
