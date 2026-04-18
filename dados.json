@@ -18,5 +18,25 @@
     "id": 4,
     "pergunta": "Qual o principal objetivo do DevOps?",
     "resposta": "Automatizar processos e reduzir o tempo de entrega de software."
+  },
+   {
+    "id": 5,
+    "pergunta": "O que é um commit?",
+    "resposta": "Registro de uma alteração no código."
+  },
+  {
+    "id": 6,
+    "pergunta": "O que é uma branch?",
+    "resposta": "Linha de desenvolvimento separada."
+  },
+  {
+    "id": 7,
+    "pergunta": "O que é merge?",
+    "resposta": "Junção de branches."
+  },
+  {
+    "id": 8,
+    "pergunta": "O que é pull request?",
+    "resposta": "Solicitação para revisar e integrar código."
   }
 ]
