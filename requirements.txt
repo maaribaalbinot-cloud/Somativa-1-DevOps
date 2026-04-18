@@ -1,1 +1,2 @@
+# Puxando o flask para o requirements.txt para que o docker consiga instalar as dependências do projeto
 flask
