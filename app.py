@@ -41,4 +41,5 @@ def pergunta():
 
     return render_template_string(html)
 
-app.run(debug=True)
+if __name__ == '__main__':
+    print("Aplicação pronta para execução")
