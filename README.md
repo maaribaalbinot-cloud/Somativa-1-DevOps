@@ -18,3 +18,11 @@ Consiste no desenvolvimento de uma API simples para auxiliar no estudo da discip
 Python
 Flask
 Git
+
+## Como rodar
+pip install flask
+python app.py
+http://localhost:5000/pergunta
+
+## Considerações
+Este é um projeto acadêmico simples, desenvolvido com foco no aprendizado de práticas de DevOps e versionamento de código.
