@@ -1,5 +1,7 @@
+#Nome do workflow: Pipeline DevOps
 name: Pipeline DevOps
 
+#Trigger de execução do workflow
 on:
   push:
     branches: [ "main" ]
@@ -7,6 +9,7 @@ on:
     branches: [ "main" ]
 
 jobs:
+#Primeiro Job: Build
   build:
     runs-on: ubuntu-latest
     steps:
@@ -22,6 +25,7 @@ jobs:
       run: |
         python -m py_compile app.py
 
+#Segundo Job: Deploy
   deploy:
     runs-on: ubuntu-latest
     needs: build 
