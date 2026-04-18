@@ -43,3 +43,5 @@ def pergunta():
 
 if __name__ == '__main__':
     print("Aplicação pronta para execução")
+    # Esta linha abaixo é a que mantém o servidor ligado!
+    app.run(debug=True, host='0.0.0.0', port=5000)
