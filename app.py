@@ -1,16 +1,22 @@
+#Importando bibliotecas
 from flask import Flask, render_template_string
 import random
 import json
 
+#Iniciando framework Flask
 app = Flask(__name__)
 
+#Leitura do JSON com as perguntas e respostas do quiz
 with open('dados.json', 'r', encoding='utf-8') as f:
     dados = json.load(f)
 
+#Rota para acessar o quiz no navegador
 @app.route('/pergunta')
 def pergunta():
+    #Seleção aleatória de uma pergunta do quiz
     p = random.choice(dados)
 
+    #Template HTML simples
     html = f"""
     <html>
         <head>
@@ -39,9 +45,10 @@ def pergunta():
     </html>
     """
 
+    #Retorna o HTLM no navegador
     return render_template_string(html)
 
 if __name__ == '__main__':
     print("Aplicação pronta para execução")
-    # Esta linha abaixo é a que mantém o servidor ligado!
+    # Esta linha abaixo é a que mantém o servidor docker ligado
     app.run(debug=True, host='0.0.0.0', port=5000)
