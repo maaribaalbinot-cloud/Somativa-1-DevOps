@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "pergunta": "O que é DevOps?",
+    "resposta": "É uma cultura que integra desenvolvimento e operações."
+  },
+  {
+    "id": 2,
+    "pergunta": "O que é CI/CD?",
+    "resposta": "Integração contínua e entrega contínua."
+  },
+  {
+    "id": 3,
+    "pergunta": "O que é Git?",
+    "resposta": "Sistema de controle de versão distribuído."
+  },
+  {
+    "id": 4,
+    "pergunta": "Qual o principal objetivo do DevOps?",
+    "resposta": "Automatizar processos e reduzir o tempo de entrega de software."
+  }
+]
