@@ -8,7 +8,7 @@ class TestQuizAPI(unittest.TestCase):
         self.app = app.test_client()
         self.app.testing = True
 
-    # Teste 1: Verifica se a rota /pergunta está carregando (Status 200)
+    # Teste 1: Verifica se a pergunta está carregando (Status 200)
     def test_get_pergunta_status(self):
         response = self.app.get('/pergunta')
         self.assertEqual(response.status_code, 200)

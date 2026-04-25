@@ -4,6 +4,7 @@ on:
   pull_request:
     branches: [ "main" ]
 
+# Tarefas (jobs) que serão executadas
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -19,3 +20,4 @@ jobs:
       - name: Run tests
         run: |
           python -m unittest test_app.py
+# O comando falhará se algum teste dentro de 'test_app.py' não passar
