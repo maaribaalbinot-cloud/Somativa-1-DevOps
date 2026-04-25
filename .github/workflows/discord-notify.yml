@@ -1,0 +1,20 @@
+name: Discord Notification
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Discord Notification
+        uses: sarisia/actions-status-discord@v1
+        if: always()
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          status: ${{ job.status }}
+          content: "Foi identificada uma nova atualização no repositório Somativa-1-DevOps!"
+          title: "Novo Push na Main"
+          description: "O commit '${{ github.event.head_commit.message }}' foi enviado com sucesso."
+          color: 0x00ff00
